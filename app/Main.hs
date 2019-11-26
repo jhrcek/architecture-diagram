@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import qualified Diagram
 
 main :: IO ()
-main = someFunc
+main = Diagram.generateAll
